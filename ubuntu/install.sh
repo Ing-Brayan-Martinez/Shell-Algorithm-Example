@@ -10,11 +10,14 @@ sudo apt -y install git &&
 
 sudo apt -y install gim &&
 
-sudo apt -y install rustc
+sudo apt -y install rustc &&
 
-HandBrake
+sudo apt -y install maven &&
 
-DB Browser for SQLite
+sudo apt -y install openjdk-8-jdk &&
+
+sudo apt -y install gnome
+
 
 
 
