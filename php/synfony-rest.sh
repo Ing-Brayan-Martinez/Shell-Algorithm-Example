@@ -5,6 +5,9 @@ composer create-project symfony/framework-standard-edition "nombre del proyecto"
 
 #Importar modulo para los rest controller.
 composer require friendsofsymfony/rest-bundle
+composer require nelmio/cors-bundle                   #cors configuracion.
+composer require friendsofsymfony/elastica-bundle     #elastc searh integrations
+composer require php-amqplib/rabbitmq-bundle          #rabbit mq integrations
 
 #Cambiar los permisos.
 sudo chmod 777 -R /var/www/html
@@ -15,6 +18,7 @@ composer show
 
 #agregar esta configuracion en: app/AppKernel.php
 new FOS\RestBundle\FOSRestBundle(),
+new Nelmio\CorsBundle\NelmioCorsBundle(),
 
 #descomentar esta configuracion en: app/config/config.ym
  serializer: { enable_annotations: true }
