@@ -4,7 +4,7 @@
   <img src="https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo/blob/master/extras/maxresdefault.jpg" alt="Comenzando con los Shell Script" width="800"/>
 </h1>
 
-### La Shell de Linx
+### La Shell
 
 Una Shell de Unix o también shell, es el término usado en informática para referirse a un intérprete de comandos, el cual consiste en la interfaz de usuario tradicional de los sistemas operativos basados en Unix y similares como GNU/Linux.
 
