@@ -16,7 +16,6 @@ En el sentido más genérico del término, shell significa cualquier intérprete
 
 
 ### Referencias
-    
-Este articulo fue basado en:
 
 - [Shell de Unix - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/Shell_de_Unix)
+- [Comando linux](https://github.com/jaywcjlove/linux-command)
