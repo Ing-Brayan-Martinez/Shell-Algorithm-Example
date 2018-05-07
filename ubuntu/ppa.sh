@@ -15,4 +15,4 @@ sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 sudo add-apt-repository ppa:atareao/telegram
 
 #para php
-sudo add-apt-repository ppa:ondrej/php
+sudo add-apt-repository -y ppa:ondrej/php
