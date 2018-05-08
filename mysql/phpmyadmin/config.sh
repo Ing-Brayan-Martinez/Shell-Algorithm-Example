@@ -1,7 +1,5 @@
-################ phpMyAdmin ###################
-
-#Instalar phpMyAdmin.
-sudo apt -y install phpmyadmin
+#mostrar archivo
+cat /etc/apache2/apache2.conf
 
 #Confgurar para que sea visible por apache2
 sudo gedit /etc/apache2/apache2.conf
@@ -17,6 +15,3 @@ sudo service apache2 restart
 
 #Verificar phpmyadmin.
 chromium-browser http://localhost/phpmyadmin
-
-#Eliminar phpMyAdmin.
-sudo apt purge phpmyadmin && sudo apt autoremove

@@ -1,17 +1,15 @@
-#rutas del sistema
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 #declarar variable
-export JAVA_HOME="/opt/jdk1.8.0_161"
+export JAVA_HOME="/usr/lib/jvm/jdk-10.0.1"
 
 #agregar al path
-export PATH=$PATH:"/opt/jdk1.8.0_161/bin"
+export PATH=$PATH:$JAVA_HOME:"/bin"
 
 #declarar variable
 export M2_HOME="/usr/share/maven"
 
 #agregar al path
-export PATH=$PATH:"/usr/share/maven/bin"
+export PATH=$PATH:$M2_HOME:"/bin"
 
 # sudo gedit /home/brayan/.bashrc
 

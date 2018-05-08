@@ -1,0 +1,1 @@
+sudo apt -y purge nodejs && sudo apt -y autoremove

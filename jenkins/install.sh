@@ -5,14 +5,18 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  apache2/remove.sh 
-##   Description:  Este script eliminara un servidor apache
-##                 en Ubuntu 16.04 LTS o superior.
+##          File:  jenkins/install.sh 
+##   Description:  Este script instalará y configurará un servidor de integracion
+##                 continua, jenkins, en Ubuntu 16.04 LTS o superior.
 ##   Requirement:  --
 ##          Note:  -- 
 ##          Bugs:  --
 ##=================================================================================
 
-sudo apt -y purge apache2 && sudo apt -y autoremove &&
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add - &&
 
-sudo service --status-all
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list' &&
+
+sudo apt update &&
+
+sudo apt -y install jenkins

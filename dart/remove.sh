@@ -1,0 +1,1 @@
+sudo apt -y purge dart && sudo apt -y autoremove

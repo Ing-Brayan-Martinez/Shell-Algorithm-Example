@@ -1,7 +1,7 @@
 
 ############### php ####################
 
-#Instalar el repositorio de php7.0
+#Instalar el repositorio de php
 sudo add-apt-repository ppa:ondrej/php &&
 sudo apt-get update
 
