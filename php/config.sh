@@ -1,4 +1,9 @@
 
+# Para auto cargar archivos usando composer
+composer dump-autoload --optimize
+
+
+
 ############### php ####################
 
 #Instalar el repositorio de php
