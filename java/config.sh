@@ -13,3 +13,6 @@ export PATH=$PATH:$M2_HOME:"/bin"
 
 # sudo gedit /home/brayan/.bashrc
 
+#/opt/netbeans-dev-201804200002/bin/netbeans --jdkhome /usr/lib/jvm/zulu-9-amd64
+
+
