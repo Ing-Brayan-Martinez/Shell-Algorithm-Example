@@ -1,4 +1,3 @@
-
 ##=================================================================================
 ##       Project:  Shell-Script-Demo
 ##        Author:  Ing Brayan Martinez
@@ -28,26 +27,22 @@ sudo add-apt-repository -y ppa:nilarimogard/webupd8 &&
 #para qbittorrent
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable &&
 
-#para telegram
-sudo add-apt-repository -y ppa:atareao/telegram &&
-
 #para php
 sudo add-apt-repository -y ppa:ondrej/php &&
 
 #para ubuntu make
 sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make &&
 
-#para intellij
-sudo add-apt-repository -y ppa:mmk2410/intellij-idea-community &&
-
-#para dart
-sudo apt -y install apt-transport-https &&
-sudo sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' &&
-sudo sh -c 'curl https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list' &&
-
 #para nodejs
 sudo apt -y install curl &&
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - &&
+
+#para java
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9 &&
+sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
+
+#para variety
+sudo add-apt-repository -y ppa:peterlevi/ppa &&
 
 
 ## actualizar paqueteria.
@@ -63,11 +58,11 @@ sudo apt -y purge --auto-remove mahjongg &&
 
 sudo apt -y purge --auto-remove ace-of-penguins &&
 
-sudo apt -y purge --auto-remove gnomine &&
+sudo apt -y purge --auto-remove gnome-mines &&
+
+sudo apt -y purge --auto-remove gnome-mahjongg &&
 
 sudo apt -y purge --auto-remove gbrainy &&
-
-sudo apt -y purge --auto-remove imagemagick &&
 
 sudo apt -y purge --auto-remove remmina remmina-plugin-rdp libfreerdp-plugins-standard &&
 
@@ -80,11 +75,11 @@ sudo apt -y purge --auto-remove libreoffice
 
 ## instalar todo.
 
-sudo apt -y install dart &&
+sudo apt -y install gnome-panel &&
 
 sudo apt -y install ubuntu-make &&
 
-sudo apt -y install intellij-idea-community &&
+sudo apt -y install variety &&
 
 sudo apt -y install software-center &&
 
@@ -94,9 +89,7 @@ sudo apt -y install sound-juicer &&
 
 sudo apt -y install git &&
 
-sudo apt -y install gim &&
-
-sudo apt -y install openjdk-8-jdk openjdk-8-jre openjdk-9-jdk openjdk-9-jre maven &&
+sudo apt -y install gimp &&
 
 sudo apt -y install gtkorphan && 
 
@@ -130,12 +123,52 @@ sudo apt -y install phpmyadmin &&
 
 sudo apt -y install qbittorrent &&
 
-sudo apt -y install telegram-cli &&
-
 sudo apt -y install erlang &&
 
 sudo apt -y install nodejs &&
 
+sudo apt -y install openjdk-8-jdk openjdk-8-jre &&
+
+sudo apt -y install zulu-9 &&
+
+sudo apt -y install zulu-10 &&
+
+sudo apt -y install maven &&
+
+sudo apt -y install haskell-platform &&
+
+sudo apt -y install rustc &&
+
+sudo apt -y install postgresql &&
+
+sudo apt -y install pgadmin3 &&
+
+sudo apt -y install gparted &&
+
+sudo apt -y install --only-upgrade firefox &&
+
+sudo apt -y install bleachbit &&
+
+sudo apt -y install inkscape &&
+
+sudo apt -y install gnome-nettool &&
+
+sudo apt -y install putty &&
+
+sudo apt -y install filezilla &&
+
+sudo apt -y install wine &&
+
+sudo apt -y install furiusisomount &&
+
+sudo apt -y install rabbitmq-server &&
+
+sudo apt -y install rar &&
+
+sudo apt -y install cinnamon &&
+
 sudo apt -y autoremove &&
 
-sudo apt -y upgrade
+sudo apt list --upgradable
+
+#sudo apt -y upgrade
