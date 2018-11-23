@@ -47,13 +47,13 @@ sudo apt update &&
 
 sudo apt -y install docker-ce &&
 
-sudo apt -y install rhythmbox
+sudo apt -y install rhythmbox &&
 
-sudo apt -y install tree
+sudo apt -y install tree &&
 
-sudo apt -y install totem*
+sudo apt -y install totem* &&
 
-sudo apt -y install cheese*
+sudo apt -y install cheese* &&
 
 sudo apt -y install variety &&
 
@@ -99,7 +99,7 @@ sudo apt -y install putty &&
 
 sudo apt -y install filezilla &&
 
-sudo apt -y install wine &&
+sudo apt -y install wine64 &&
 
 sudo apt -y install furiusisomount &&
 
