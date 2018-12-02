@@ -1,6 +1,6 @@
 
 #declarar variable
-export JAVA_HOME="/usr/lib/jvm/jdk-10.0.1"
+export JAVA_HOME="/usr/lib/jvm/zulu-11-amd64"
 
 #agregar al path
 export PATH=$PATH:$JAVA_HOME:"/bin"

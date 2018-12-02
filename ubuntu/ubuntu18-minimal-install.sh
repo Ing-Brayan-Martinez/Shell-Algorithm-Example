@@ -71,8 +71,6 @@ sudo apt -y install vlc &&
 
 sudo apt -y install libreoffice &&
 
-sudo apt -y install ubuntu-restricted-extras &&
-
 sudo apt -y install pulseaudio-equalizer &&
 
 sudo apt -y install synaptic &&
@@ -106,6 +104,8 @@ sudo apt -y install furiusisomount &&
 sudo apt -y install rar &&
 
 sudo apt -y install cinnamon &&
+
+sudo apt -y install ubuntu-restricted-extras &&
 
 sudo apt -y autoremove &&
 
