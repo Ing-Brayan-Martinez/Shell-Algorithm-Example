@@ -1,6 +1,10 @@
 
 #declarar variable
+<<<<<<< HEAD
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+=======
+export JAVA_HOME="/usr/lib/jvm/zulu-11-amd64"
+>>>>>>> master
 
 #agregar al path
 export PATH=$PATH:$JAVA_HOME:"/bin"
