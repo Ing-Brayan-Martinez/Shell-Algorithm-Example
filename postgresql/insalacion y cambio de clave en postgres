@@ -1,0 +1,12 @@
+apt install postgres -10
+
+apt install pgadmin3
+
+logiar con el usuario postgres 
+su postgres
+
+psql 
+
+postgres=# ALTER USER postgres WITH PASSWORD 'clave nueva de postgres ';
+
+
