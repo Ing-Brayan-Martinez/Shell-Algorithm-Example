@@ -1,11 +1,7 @@
-apt install postgres -10
-
-apt install pgadmin3
 
 sudo su
 
 su postgres -c psql postgres
-
 
 postgres=# ALTER USER postgres WITH PASSWORD 'postgres';
 
