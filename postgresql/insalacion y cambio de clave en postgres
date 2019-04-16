@@ -1,8 +1,0 @@
-
-sudo su
-
-su postgres -c psql postgres
-
-postgres=# ALTER USER postgres WITH PASSWORD 'postgres';
-
-
