@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #mostrar archivo
 cat /etc/apache2/apache2.conf
 
