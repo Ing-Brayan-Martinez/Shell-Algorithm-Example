@@ -24,7 +24,7 @@
 # Este es un comentario de una linea.
 
 : '
-  Este es un comando de
+  Este es un comentario de
   multiple lineas
   y que contiene muchas cosas mas.
 '
