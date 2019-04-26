@@ -2,11 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bash/file-system/disk.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bash/file-system/files.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bash/lang/lang.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bash/user/user.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ansible/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache2/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/apache2/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache2/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/apache2/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache2/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/apache2/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/file-system/disk.sh" beforeDir="false" afterPath="$PROJECT_DIR$/administracion/file-system/disk.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/file-system/files.sh" beforeDir="false" afterPath="$PROJECT_DIR$/administracion/file-system/files.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/lang/lang.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bash/lang.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/user/user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/administracion/user/user.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brackets/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/brackets/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brackets/plug-in.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/brackets/plug-in.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/dart/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/dart/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/dart/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-composer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/docker/docker-composer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/docker/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elk/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/elk/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elk/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/elk/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/arch-linux-screenshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/extras/arch-linux-screenshot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras/maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/extras/maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlab/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/gitlab/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitlab/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/gitlab/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/java/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/install-javafx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/java/install-javafx.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/java/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java-alternatives.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/java/java-alternatives.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/java/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/jenkins/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/jenkins/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamp/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/lamp/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamp/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/lamp/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/backup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/backup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql-listen.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/mysql-listen.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql-root.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/mysql-root.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql-workbench/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/mysql-workbench/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql-workbench/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/mysql-workbench/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/phpmyadmin/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/phpmyadmin/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/phpmyadmin/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/phpmyadmin/respaldo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/respaldo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/mysql/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/nodejs/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/nodejs/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/composer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/composer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php5.6/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/php5.6/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php5.6/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/php5.6/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php7.0/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/php7.0/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php7.0/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/php7.0/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php7.1/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/php7.1/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php7.1/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/php7.1/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/synfony/alias-synfony.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/synfony/alias-synfony.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/synfony/doctryne.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/synfony/doctryne.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/synfony/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/synfony/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/synfony/synfony-rest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/php/synfony/synfony-rest.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/postgresql/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/postgresql/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/postgresql/remove.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu/config-apt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/config-apt.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu/config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu/snapt-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/snapt-install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu/ubuntu16-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/ubuntu16-install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu/ubuntu18-minimal-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/ubuntu18-minimal-install.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,36 +114,38 @@
     <session id="-1455165830">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.358" value="1" />
           <entry key="project.open.time.667" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="insalacion y cambio de clave en postgres" value="1" />
-          <entry key="sh" value="21" />
+          <entry key="sh" value="22" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="21" />
+          <entry key="Bash" value="22" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="insalacion y cambio de clave en postgres" value="1" />
-          <entry key="sh" value="321" />
+          <entry key="sh" value="853" />
           <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="321" />
+          <entry key="Bash" value="853" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -93,33 +156,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/backup.sh">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bash/lang.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+            <state relative-caret-position="153">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bash/lang/lang.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bash/user/user.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bash/file-system/files.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bash/file-system/disk.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/instalacion/ubuntu/ubuntu18-minimal-install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="3" selection-end-line="12" selection-end-column="83" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -152,6 +204,7 @@
         <option value="$PROJECT_DIR$/postgresql/install.sh" />
         <option value="$PROJECT_DIR$/postgresql/remove.sh" />
         <option value="$PROJECT_DIR$/mysql/backup.sh" />
+        <option value="$PROJECT_DIR$/bash/lang.sh" />
       </list>
     </option>
   </component>
@@ -172,9 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,47 +235,40 @@
             <path>
               <item name="Shell-Script-Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shell-Script-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="bash" type="462c0819:PsiDirectoryNode" />
+              <item name="administracion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shell-Script-Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shell-Script-Demo" type="462c0819:PsiDirectoryNode" />
               <item name="bash" type="462c0819:PsiDirectoryNode" />
-              <item name="file-system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shell-Script-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shell-Script-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="bash" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shell-Script-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shell-Script-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="bash" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shell-Script-Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shell-Script-Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555441706116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556304282573" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\sources\workspace-bmartinez\Shell-Script-Demo" />
+      <recent name="C:\sources\workspace-bmartinez\Shell-Script-Demo\bash" />
+      <recent name="C:\sources\workspace-bmartinez\Shell-Script-Demo\administracion" />
+      <recent name="C:\sources\workspace-bmartinez\Shell-Script-Demo\administracion\instalacion" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,7 +297,9 @@
       <workItem from="1552060258594" duration="243000" />
       <workItem from="1555428262358" duration="17000" />
       <workItem from="1555432529630" duration="5464000" />
-      <workItem from="1555443616423" duration="1220000" />
+      <workItem from="1555443616423" duration="1363000" />
+      <workItem from="1555938592831" duration="655000" />
+      <workItem from="1556300053869" duration="4393000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -277,16 +322,23 @@
       <option name="project" value="LOCAL" />
       <updated>1555439069908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cambios del 16 04 2019">
+      <created>1555446971924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555446971924</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7186000" />
+    <option name="totallyTimeSpent" value="12377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26606685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23521851" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -304,7 +356,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32921812" />
       <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.47462276" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
@@ -342,76 +394,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ansible/install.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/ansible/install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/config.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/config.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/install.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/install.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/mysql-listen.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/mysql-listen.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/remove.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/remove.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/phpmyadmin/respaldo.txt">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/phpmyadmin/respaldo.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/phpmyadmin/config.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/phpmyadmin/config.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/phpmyadmin/install.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/phpmyadmin/install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/phpmyadmin/remove.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/phpmyadmin/remove.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/mysql-workbench/remove.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/mysql-workbench/remove.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/mysql-workbench/install.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/mysql-workbench/install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/mysql-root.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/mysql-root.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
@@ -419,51 +471,62 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/postgresql/insalacion y cambio de clave en postgres" />
-    <entry file="file://$PROJECT_DIR$/postgresql/config.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/postgresql/config.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/install.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/postgresql/install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/remove.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/postgresql/remove.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/install.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/nodejs/install.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodejs/remove.sh">
+    <entry file="file://$PROJECT_DIR$/instalacion/nodejs/remove.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/backup.sh">
+    <entry file="file://$PROJECT_DIR$/administracion/file-system/disk.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instalacion/mysql/backup.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-end-line="6" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash/lang/lang.sh">
+    <entry file="file://$PROJECT_DIR$/administracion/file-system/files.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash/user/user.sh">
+    <entry file="file://$PROJECT_DIR$/administracion/user/user.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash/file-system/files.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/instalacion/ubuntu/ubuntu18-minimal-install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-end-line="12" selection-end-column="83" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bash/file-system/disk.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/bash/lang.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
