@@ -17,7 +17,17 @@
 # https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes
 # https://e-mc2.net/index.php/es/linux-es
 
+####################
+# comentorios
+####################
 
+# Este es un comentario de una linea.
+
+: '
+  Este es un comando de
+  multiple lineas
+  y que contiene muchas cosas mas.
+'
 
 ####################
 # variables
@@ -110,6 +120,12 @@ echo $RNM
  ^ 	operador xor
  ! 	operador de negación (NOT)
 '
+
+# Operadores lógicos
+#
+# == 	operador binario que devuelve "verdadero" si las expresiones son verdaderas
+# && 	operador binario que devuelve verdadero si ambas expresiones son verdaderas, en otros casos devuelve falso.
+# || 	operador binario que devuelve verdadero si al menos una de las expresiones es verdadera.
 
 ####################
 # condiciones if else
@@ -220,3 +236,46 @@ do
       echo "Opcion no valida"
   fi
 done
+
+####################
+# funciones
+####################
+
+# declaracion
+function limpiarPantalla {
+  clear
+}
+
+function listarETC  {
+  ls /etc
+}
+
+function crearDirectorio {
+  mkdir directorio
+}
+
+# invocar funciones.
+read opcion
+case $opcion in
+  b|B)
+     limpiarPantalla
+  ;;
+  l|L)
+     listarETC
+  ;;
+  c|C)
+     crearDirectorio ;;
+esac
+
+
+####################
+# paso de parametros
+####################
+
+# se ejecuta hasi. bash ./parámetros.sh primero segundo
+echo "El nombre del fichero en ejecución es: $0"
+echo "El primer parámetro es: $1"
+echo "El segundo parámetro es: $2"
+echo "Los parámetros son: $*"
+echo "La cantidad de parámetros pasados es de $# parámetros"
+exit 0
