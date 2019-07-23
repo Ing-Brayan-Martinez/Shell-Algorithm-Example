@@ -39,7 +39,8 @@ sudo apt update &&
 sudo apt -y install dart
 
 
-#declarar variable
+# declarar variable
+# sudo gedit /home/brayan/.bashrc
 
 #Android
 export ANDROID_HOME="/home/administrador/Android/Sdk"
@@ -72,8 +73,27 @@ flutter doctor
 flutter doctor --android-licenses
 
 
+#solucionar el problema de: kvm is requerided for android
+
+# Primero instalar dependencias y reiniciar (teniendo una maquina que soporte virtualización).
+sudo apt install -y qemu-kvm libvirt0 virt-manager bridge-utils
 
 
+# Comprobarmos las interfaces de red así (el nombre, ya sea eth0, ens0, o lo que sea:
+ip a s
 
+# verificar la instalacion y el owner de kvm
+ls -la /dev/kvm
 
+# verficar si nuestro usuario esta el grupo kvm
+grep kvm /etc/group
 
+# en caso de no estar lo agregamos
+sudo adduser your_username kvm
+
+# cambiamos los permisos y listo ya se puede virtualizar lo que sea
+sudo chown username -R /dev/kvm
+sudo chmod -R 777 /dev/kvm
+
+# mas informacion para virtualizar
+# https://mierda.tv/2018/07/18/virtualizar-kvm-y-utilizar-virt-manager-para-gestionar/
