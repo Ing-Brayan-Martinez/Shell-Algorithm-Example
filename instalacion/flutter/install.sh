@@ -97,3 +97,4 @@ sudo chmod -R 777 /dev/kvm
 
 # mas informacion para virtualizar
 # https://mierda.tv/2018/07/18/virtualizar-kvm-y-utilizar-virt-manager-para-gestionar/
+# https://www.genbeta.com/a-fondo/virtualizacion-con-kvm-virtualizacion-de-codigo-abierto
