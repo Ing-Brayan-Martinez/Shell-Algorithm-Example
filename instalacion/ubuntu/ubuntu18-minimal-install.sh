@@ -99,15 +99,13 @@ sudo apt -y install furiusisomount &&
 
 sudo apt -y install rar &&
 
-#sudo apt -y install openjdk-11* &&
+#sudo apt -y install openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless &&
 
-sudo apt -y install openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless &&
+#sudo apt -y install openjdk-8-jdk openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless &&
 
-sudo apt -y install openjdk-8-jdk openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless &&
+sudo apt -y install zulu-6 zulu-7 zulu-8 zulu-9 zulu-10 zulu-11 zulu-12 zulu-13 &&
 
 sudo apt -y install maven &&
-
-sudo apt -y install rustc &&
 
 sudo apt -y install cinnamon &&
 
