@@ -4,8 +4,14 @@ sudo fuser -vki  /var/lib/dpkg/lock
 #ver lista de paquetes actulizables
 sudo apt list --upgradable
 
+#ver lista de paquetes instalados
+sudo apt list --installed
+
 #para borrar un paquete corrupto
 sudo dpkg --purge --force-all squid3
+
+#para saber las dependencias de un paquete
+apt-cache depends vim
 
 #sobre escribir un paquete
 sudo apt -o Dpkg::Options::="--force-overwrite" install openjdk-9-jdk

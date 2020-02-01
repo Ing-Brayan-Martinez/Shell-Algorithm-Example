@@ -1,25 +1,63 @@
 
+#lang
+sudo snap install go --classic
 
+sudo snap install node --classic
 
+sudo snap install ruby --classic
+
+sudo snap install kotlin --classic
+
+sudo snap install dotnet-sdk --classic
+
+sudo snap install groovy --classic
+
+# jetbrains
+sudo snap install goland --classic
+
+sudo snap install clion --classic
+
+sudo snap install rider --classic
+
+sudo snap install datagrip --classic
+
+sudo snap install webstorm --classic
+
+sudo snap install pycharm-professional --classic   
+
+sudo snap install intellij-idea-ultimate --classic
+
+sudo snap install intellij-idea-community --classic
+
+sudo snap install phpstorm --classic
+
+sudo snap install android-studio --classic
+
+# others
+sudo snap install eclipse --classic
+
+sudo snap install netbeans --classic
+
+sudo snap install brackets --classic
+
+sudo snap install code --classic
 
 sudo snap install gitkraken
 
 sudo snap install dbeaver-ce --edge
 
-sudo snap install kubectl --classic
+sudo snap install postman
 
-sudo snap install brackets --classic
+sudo snap install bower --classic
+
+# devops
+sudo snap install kubectl --classic
 
 sudo snap install powershell --classic
 
-sudo snap install intellij-idea-community --classic
+sudo snap install couchdb
 
-sudo snap install android-studio --classic
-
-sudo snap install eclipse --classic
-
-sudo snap install postman
-
+# social
 sudo snap install vlc --edge
 
 sudo snap install opera

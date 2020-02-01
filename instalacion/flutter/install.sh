@@ -42,28 +42,28 @@ sudo apt -y install dart
 # declarar variable
 # sudo gedit /home/brayan/.bashrc
 
-#Android
-export ANDROID_HOME="/home/administrador/Android/Sdk"
-
 #Java
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-
 export PATH=$PATH:$JAVA_HOME:"/bin"
 
 #Maven
 export M2_HOME="/usr/share/maven"
-
 export PATH=$PATH:$M2_HOME:"/bin"
 
-#Flutter
-export FLUTTER_HOME="/opt/flutter"
-
-export PATH=$PATH:$FLUTTER_HOME"/bin"
+#Pub
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 #Dart
 export DART_HOME="/usr/lib/dart"
-
 export PATH=$PATH:$DART_HOME"/bin"
+
+#Flutter
+export FLUTTER_HOME="/opt/flutter"
+export PATH=$PATH:$FLUTTER_HOME"/bin"
+
+#Android
+export ANDROID_HOME="/media/brayan/HDD-1TB/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME"/tools":$ANDROID_HOME"/platform-tools"
 
 
 # verificar que la instalcion de flutter
@@ -73,28 +73,52 @@ flutter doctor
 flutter doctor --android-licenses
 
 
-#solucionar el problema de: kvm is requerided for android
+# solucionar el problema de: kvm is requerided for android
+# para instalar la kvm
+
+
+
+# Check if your processor supports hardware virtualization in Terminal:
+egrep -c '(vmx|svm)' /proc/cpuinfo
+
+# Install cpu-checker
+sudo apt install cpu-checker
+
+# Check if your cpu supports kvm with cpu-checker
+kvm-ok
 
 # Primero instalar dependencias y reiniciar (teniendo una maquina que soporte virtualización).
-sudo apt install -y qemu-kvm libvirt0 virt-manager bridge-utils
+sudo apt install -y qemu-kvm libvirt-bin bridge-utils
 
+# verificar el status del demonio de virtualizacion
+sudo service libvirtd status
+# o
+sudo systemctl status libvirtd
 
-# Comprobarmos las interfaces de red así (el nombre, ya sea eth0, ens0, o lo que sea:
+# reiniciamos el servicio de virtualizacion para no reiniciar el pc
+sudo service libvirtd restart
+
+# verificar las interfaces de red si se instalo correctamente (el nombre, ya sea eth0, ens0, o lo que sea:
 ip a s
-
-# verificar la instalacion y el owner de kvm
-ls -la /dev/kvm
 
 # verficar si nuestro usuario esta el grupo kvm
 grep kvm /etc/group
 
 # en caso de no estar lo agregamos
-sudo adduser your_username kvm
+sudo adduser brayan kvm
+
+# verificar la instalacion y el owner de kvm
+ls -la /dev/kvm
 
 # cambiamos los permisos y listo ya se puede virtualizar lo que sea
-sudo chown username -R /dev/kvm
+sudo chown brayan:kvm -R /dev/kvm
 sudo chmod -R 777 /dev/kvm
+
+
+
+#sudo apt install -y libvirt0 ubuntu-vm-builder virt-manager
 
 # mas informacion para virtualizar
 # https://mierda.tv/2018/07/18/virtualizar-kvm-y-utilizar-virt-manager-para-gestionar/
 # https://www.genbeta.com/a-fondo/virtualizacion-con-kvm-virtualizacion-de-codigo-abierto
+# https://blog.desdelinux.net/qemu-kvm-virt-manager-debian-redes-computadoras-las-pymes/
