@@ -1,3 +1,6 @@
+#atajos de teclado
+https://www.lucid-lynx.com/?p=279
+
 #temas
 Varz Dark
 Brackets Icons
@@ -19,6 +22,7 @@ QuickDocsJS
 quickJS
 RCH Bootstrap 4 Snippets
 Vue Snippets
+Open project in terminal
 
 #plug in no usados
 TypeScript
