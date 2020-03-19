@@ -1,23 +1,12 @@
 #temas
-
 Varz Dark
+Brackets Icons
 
-
-# plug in
-
-#no usados
-TypeScript
-Special Html Characters
-Autoprefixer
-ESLint
-Brackets Thymeleaf Code Hint
-
-
-#usados
+#plug in usados
 Beautify
 Brackets Color Palette
 Brackets Css Color Preview
-Brackets Git
+Brackets Ungit
 Brackets Icons
 Brackets Matcher
 Brackets Outline List
@@ -26,10 +15,16 @@ EditorConfig
 Emmet
 jQuinter
 Lorem Ipsum
-PHP Completion (AutoComplete)
 QuickDocsJS
 quickJS
 RCH Bootstrap 4 Snippets
 Vue Snippets
+
+#plug in no usados
+TypeScript
+Special Html Characters
+Autoprefixer
+ESLint
+Brackets Thymeleaf Code Hint
 
 
