@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/flutter/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/flutter/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/config-apt.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/config-apt.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/snapt-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/instalacion/ubuntu/snapt-install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556306880744" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../West/Workspace/com.west.pm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -103,7 +99,7 @@
       <workItem from="1563829862155" duration="1719000" />
       <workItem from="1563888419076" duration="1438000" />
       <workItem from="1580560390413" duration="79000" />
-      <workItem from="1580560511874" duration="360000" />
+      <workItem from="1580560511874" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -161,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563831274543</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cambios del 01 02 2020">
+      <created>1580560935390</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580560935390</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,13 +176,26 @@
     <MESSAGE value="Cambios del 16 04 2019" />
     <MESSAGE value="Cambios del 26 04 2019" />
     <MESSAGE value="Cambios del 22 07 2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 22 07 2019" />
+    <MESSAGE value="Cambios del 01 02 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 01 02 2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580560447556">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1366.743@0.25.1366.743" timestamp="1580560447556" />
+    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1580560933998">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1580560933998" />
+    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl" timestamp="1580561204832">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1580561204832" />
+    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1580560941570">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1580560941570" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
