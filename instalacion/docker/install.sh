@@ -12,6 +12,8 @@
 ##          Bugs:  --
 ##=================================================================================
 
+#referencia
+#https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 #instalar complementos
 sudo apt -y install apt-transport-https ca-certificates curl software-properties-common &&
