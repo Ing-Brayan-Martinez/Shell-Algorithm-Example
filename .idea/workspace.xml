@@ -2,86 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-bash/test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-cloud/mysql/phpmyadmin/install-docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-cloud/postgresql/config-global/backup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-cloud/mongodb/config/config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-cloud/mysql/phpmyadmin/remove-docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-cloud/mysql/remove-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/administracion/file-system/disk.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/administracion/file-system/files.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/administracion/user/user.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bash/lang.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/adobe/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/adobe/install_adobe.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ansible/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/apache2/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/apache2/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/apache2/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/brackets/Brackets.Release.1.14.1.64-bit-Fixed.deb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/brackets/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/brackets/plug-in.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/dart/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/dart/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/dart/path-dart.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/dart/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/docker/docker-composer.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/docker/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/elk/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/elk/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/extras/arch-linux-screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/extras/maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/flutter/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/gitlab/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/gitlab/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/java/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/java/install-javafx.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/java/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/java/java-alternatives.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/java/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/jenkins/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/jenkins/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/lamp/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/lamp/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mongodb/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/backup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/mysql-listen.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/mysql-root.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/mysql-workbench/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/mysql-workbench/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/phpmyadmin/respaldo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/mysql/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/nodejs/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/nodejs/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/composer.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/php5.6/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/php5.6/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/php7.0/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/php7.0/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/php7.1/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/php7.1/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/synfony/alias-synfony.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/synfony/doctryne.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/synfony/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/php/synfony/synfony-rest.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/postgresql/config.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/postgresql/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/postgresql/remove.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/rabbitmq/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/samba/install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/samba/libuser1_0.62~dfsg-0.1ubuntu2_amd64.deb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/samba/python-libuser_0.62~dfsg-0.1ubuntu2_amd64.deb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ssh/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/config-apt.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/old/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/snapt-install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/ubuntu16-install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/ubuntu/ubuntu18-minimal-install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instalacion/windows/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-admin-system/service/service.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/service/service.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/mongodb/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/mongodb/install-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/mysql/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/mysql/install-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/mysql/phpmyadmin/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/mysql/phpmyadmin/install-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/postgresql/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/postgresql/install-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/postgresql/pgadmin4/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/postgresql/pgadmin4/install-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/postgresql/pgadmin4/remove-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/postgresql/pgadmin4/remove-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-cloud/rabbitmq/install-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/rabbitmq/install-docker.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +52,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XCqNoxyxNufyILGElOvI0QnDsN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -202,7 +141,8 @@
       <workItem from="1580560390413" duration="79000" />
       <workItem from="1580560511874" duration="696000" />
       <workItem from="1585235137368" duration="150000" />
-      <workItem from="1585235316625" duration="965000" />
+      <workItem from="1585235316625" duration="9988000" />
+      <workItem from="1585249091706" duration="5480000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -267,54 +207,66 @@
       <option name="project" value="LOCAL" />
       <updated>1580560935390</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cambios del 26 03 2020 - dar soporte para el trabajo con docker">
+      <created>1585236434319</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585236434319</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Cambios del proyecto mysql 16 04 2019" />
     <MESSAGE value="Cambios del proyecto postgresql y otros 16 04 2019" />
     <MESSAGE value="Cambios del 16 04 2019" />
     <MESSAGE value="Cambios del 26 04 2019" />
     <MESSAGE value="Cambios del 22 07 2019" />
     <MESSAGE value="Cambios del 01 02 2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 01 02 2020" />
+    <MESSAGE value="Cambios del 26 03 2020 - dar soporte para el trabajo con docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 26 03 2020 - dar soporte para el trabajo con docker" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580560447556">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1366.743@0.25.1366.743" timestamp="1580560447556" />
-    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1580560933998">
-      <screen x="0" y="25" width="1366" height="743" />
+    <state x="213" y="28" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1585236432945">
+      <screen x="0" y="28" width="1680" height="1022" />
     </state>
     <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1580560933998" />
+    <state x="213" y="28" key="CommitChangelistDialog2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236432945" />
     <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl" timestamp="1580561204832">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1580561204832" />
-    <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1585235438444">
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1585247386685">
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.28.1680.1022@0.28.1680.1022" timestamp="1585235438444" />
-    <state width="1638" height="262" key="GridCell.Tab.0.center" timestamp="1585235438443">
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.28.1680.1022@0.28.1680.1022" timestamp="1585247386685" />
+    <state width="1638" height="262" key="GridCell.Tab.0.center" timestamp="1585247386684">
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.center/0.28.1680.1022@0.28.1680.1022" timestamp="1585235438443" />
-    <state width="1638" height="262" key="GridCell.Tab.0.left" timestamp="1585235438443">
+    <state width="1638" height="262" key="GridCell.Tab.0.center/0.28.1680.1022@0.28.1680.1022" timestamp="1585247386684" />
+    <state width="1638" height="262" key="GridCell.Tab.0.left" timestamp="1585247386684">
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.left/0.28.1680.1022@0.28.1680.1022" timestamp="1585235438443" />
-    <state width="1638" height="262" key="GridCell.Tab.0.right" timestamp="1585235438444">
+    <state width="1638" height="262" key="GridCell.Tab.0.left/0.28.1680.1022@0.28.1680.1022" timestamp="1585247386684" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right" timestamp="1585247386685">
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.right/0.28.1680.1022@0.28.1680.1022" timestamp="1585235438444" />
-    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1580560941570">
-      <screen x="0" y="25" width="1366" height="743" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right/0.28.1680.1022@0.28.1680.1022" timestamp="1585247386685" />
+    <state x="342" y="175" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1585236444064">
+      <screen x="0" y="28" width="1680" height="1022" />
     </state>
     <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1580560941570" />
+    <state x="342" y="175" key="Vcs.Push.Dialog.v2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236444064" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

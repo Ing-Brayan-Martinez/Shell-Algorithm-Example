@@ -4,6 +4,8 @@ service --status-all
 
 sudo systemctl daemon-reload
 
+sudo systemctl enable postgresql
+
 sudo systemctl disable postgresql
 
 sudo systemctl stop postgresql
