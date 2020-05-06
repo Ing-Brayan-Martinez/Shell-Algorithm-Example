@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-service --status-all
+sudo service --status-all
 
 sudo systemctl daemon-reload
 

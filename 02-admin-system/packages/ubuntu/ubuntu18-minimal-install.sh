@@ -1,21 +1,23 @@
+#!/usr/bin/env bash
+
 ##=================================================================================
 ##       Project:  Shell-Script-Demo
 ##        Author:  Ing Brayan Martinez
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  ubuntu/install.sh 
+##          File:  ubuntu/install.sh
 ##   Description:  Este script instalará y configurará la distribucion de linux
 ##                 Ubuntu 18.04 LTS instalacion minimal.
 ##   Requirement:  --
-##          Note:  -- 
+##          Note:  --
 ##          Bugs:  --
 ##=================================================================================
 
 
 ## repositorios.
 
-sudo add-apt-repository -y ppa:embrosyn/cinnamon && 
+sudo add-apt-repository -y ppa:embrosyn/cinnamon &&
 
 #para vlc
 sudo add-apt-repository -y ppa:videolan/master-daily &&
@@ -65,9 +67,9 @@ sudo apt -y install sound-juicer &&
 
 sudo apt -y install git &&
 
-sudo apt -y install gtkorphan && 
+sudo apt -y install gtkorphan &&
 
-sudo apt -y install chromium-browser && 
+sudo apt -y install chromium-browser &&
 
 sudo apt -y install vlc &&
 

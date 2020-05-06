@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #CLI
 choco install curl -y
 choco install wget -y
@@ -5,10 +7,10 @@ choco install cygwin -y
 choco install sudo -y
 
 #javascript
-choco install vscode -y 
+choco install vscode -y
 choco install brackets -y
-choco install nodejs-lts -y 
-choco install webpacktaskrunner -y 
+choco install nodejs-lts -y
+choco install webpacktaskrunner -y
 choco install electron -y
 choco install sass -y
 
