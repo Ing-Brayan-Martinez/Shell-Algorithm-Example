@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu20-minimal-install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/old/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/old/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu16-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu16-install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu18-minimal-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu18-minimal-install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-admin-system/packages/windows/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/windows/install.sh" afterDir="false" />
@@ -148,7 +150,7 @@
       <workItem from="1588263023890" duration="28000" />
       <workItem from="1588798115993" duration="910000" />
       <workItem from="1588799465264" duration="327000" />
-      <workItem from="1588799899156" duration="714000" />
+      <workItem from="1588799899156" duration="956000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -235,7 +237,8 @@
     <MESSAGE value="Cambios del 22 07 2019" />
     <MESSAGE value="Cambios del 01 02 2020" />
     <MESSAGE value="Cambios del 26 03 2020 - dar soporte para el trabajo con docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 26 03 2020 - dar soporte para el trabajo con docker" />
+    <MESSAGE value="Cambios del 07 05 2020 - dar soporte para el trabajo con docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 07 05 2020 - dar soporte para el trabajo con docker" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -243,10 +246,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1366.743@0.25.1366.743" timestamp="1580560447556" />
-    <state x="213" y="28" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1585236432945">
-      <screen x="0" y="28" width="1680" height="1022" />
+    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1588801570015">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1580560933998" />
+    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1588801570015" />
     <state x="213" y="28" key="CommitChangelistDialog2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236432945" />
     <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl" timestamp="1580561204832">
       <screen x="0" y="25" width="1366" height="743" />
@@ -268,10 +271,10 @@
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
     <state width="1638" height="262" key="GridCell.Tab.0.right/0.28.1680.1022@0.28.1680.1022" timestamp="1585247386685" />
-    <state x="342" y="175" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1585236444064">
-      <screen x="0" y="28" width="1680" height="1022" />
+    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1588801580673">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1580560941570" />
+    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1588801580673" />
     <state x="342" y="175" key="Vcs.Push.Dialog.v2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236444064" />
   </component>
   <component name="antWorkspaceConfiguration">

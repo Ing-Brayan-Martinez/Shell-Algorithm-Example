@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+systemctl --type=servic
+
+systemctl --type=service --state=active
+
+
 sudo service --status-all
 
 sudo systemctl daemon-reload
