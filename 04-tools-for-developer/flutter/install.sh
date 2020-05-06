@@ -50,16 +50,18 @@ export PATH=$PATH:$JAVA_HOME:"/bin"
 export M2_HOME="/usr/share/maven"
 export PATH=$PATH:$M2_HOME:"/bin"
 
-#Pub
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 
 #Dart
-export DART_HOME="/usr/lib/dart"
-export PATH=$PATH:$DART_HOME"/bin"
+export DART_HOME="/opt/flutter/bin/cache/dart-sdk/bin"
+export PATH=$PATH:$DART_HOME
 
 #Flutter
 export FLUTTER_HOME="/opt/flutter"
 export PATH=$PATH:$FLUTTER_HOME"/bin"
+
+#pub
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 #Android
 export ANDROID_HOME="/media/brayan/HDD-1TB/Android/Sdk"
