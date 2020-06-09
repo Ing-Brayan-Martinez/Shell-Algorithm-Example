@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04-tools-for-developer/kotlin/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/file-system/files.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/file-system/files.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/snapt-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/snapt-install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu18-minimal-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu18-minimal-install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-tools-for-developer/nodejs/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04-tools-for-developer/nodejs/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-tools-for-developer/nodejs/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04-tools-for-developer/nodejs/remove.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,9 @@
       <workItem from="1590162069991" duration="4423000" />
       <workItem from="1590167992668" duration="3108000" />
       <workItem from="1590174897348" duration="110000" />
-      <workItem from="1591724971595" duration="3567000" />
+      <workItem from="1591724971595" duration="3740000" />
+      <workItem from="1591735023388" duration="31000" />
+      <workItem from="1591740930513" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -230,11 +229,31 @@
       <option name="project" value="LOCAL" />
       <updated>1588801741080</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Cambios del 09 06 2020">
+      <created>1591729412349</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591729412349</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -259,11 +278,11 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1366.743@0.25.1366.743" timestamp="1588951742288" />
-    <state x="173" y="27" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1591729410864">
+    <state x="173" y="27" width="1006" height="738" key="CommitChangelistDialog2" timestamp="1591744075183">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1588801740604" />
-    <state x="173" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1591729410864" />
+    <state x="173" y="27" width="1006" height="738" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1591744075183" />
     <state x="213" y="28" key="CommitChangelistDialog2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236432945" />
     <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1585247386685">
       <screen x="0" y="28" width="1680" height="1022" />
@@ -286,11 +305,17 @@
     </state>
     <state x="179" y="31" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1588801801588" />
     <state x="179" y="33" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1591724985806" />
-    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1588801757602">
-      <screen x="0" y="25" width="1366" height="743" />
+    <state x="278" y="134" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1591729417856">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1588801757602" />
+    <state x="278" y="134" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1591729417856" />
     <state x="342" y="175" key="Vcs.Push.Dialog.v2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236444064" />
+    <state x="362" y="219" key="com.intellij.ide.util.TipDialog" timestamp="1591735048019">
+      <screen x="0" y="21" width="1366" height="747" />
+    </state>
+    <state x="362" y="219" key="com.intellij.ide.util.TipDialog/0.21.1366.747@0.21.1366.747" timestamp="1591735048019" />
+    <state x="362" y="223" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1591730318868" />
   </component>
   <component name="masterDetails">
     <states>

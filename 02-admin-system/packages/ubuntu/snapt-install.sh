@@ -44,13 +44,15 @@ sudo snap install code --classic
 
 sudo snap install gitkraken
 
-sudo snap install dbeaver-ce --edge
+sudo snap install dbeaver-ce
 
 sudo snap install postman
 
 sudo snap install bower --classic
 
 sudo snap install beekeeper-studio
+
+sudo snap install insomnia
 
 # devops
 sudo snap install kubectl --classic
