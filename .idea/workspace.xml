@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu20-minimal-install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/old/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/old/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu16-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu16-install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-admin-system/file-system/files.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/file-system/files.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/snapt-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/snapt-install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu18-minimal-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/ubuntu18-minimal-install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/windows/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/windows/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/service/service.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/service/service.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-cloud/docker/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05-cloud/docker/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-tools-for-developer/nodejs/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04-tools-for-developer/nodejs/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-tools-for-developer/nodejs/remove.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04-tools-for-developer/nodejs/remove.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1XCqNoxyxNufyILGElOvI0QnDsN" />
   <component name="ProjectLevelVcsManager">
@@ -51,7 +50,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,6 +61,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556306880744" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,7 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -98,18 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\bmartinez\AppData\Roaming\Subversion</configuration>
@@ -150,7 +137,14 @@
       <workItem from="1588263023890" duration="28000" />
       <workItem from="1588798115993" duration="910000" />
       <workItem from="1588799465264" duration="327000" />
-      <workItem from="1588799899156" duration="956000" />
+      <workItem from="1588799899156" duration="1185000" />
+      <workItem from="1588801917919" duration="56000" />
+      <workItem from="1588951159655" duration="585000" />
+      <workItem from="1589764157126" duration="438000" />
+      <workItem from="1590162069991" duration="4423000" />
+      <workItem from="1590167992668" duration="3108000" />
+      <workItem from="1590174897348" duration="110000" />
+      <workItem from="1591724971595" duration="3567000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -222,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585236434319</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cambios del 07 05 2020 - dar soporte para el trabajo con docker">
+      <created>1588801571319</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588801571319</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cambios del 07 05 2020 - dar soporte para el trabajo con docker">
+      <created>1588801741080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588801741080</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,23 +246,25 @@
     <MESSAGE value="Cambios del 01 02 2020" />
     <MESSAGE value="Cambios del 26 03 2020 - dar soporte para el trabajo con docker" />
     <MESSAGE value="Cambios del 07 05 2020 - dar soporte para el trabajo con docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 07 05 2020 - dar soporte para el trabajo con docker" />
+    <MESSAGE value="Cambios del 09 06 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 09 06 2020" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580560447556">
+    <state x="278" y="58" width="800" height="675" key="#Notifications" timestamp="1588801964462">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="366" y="129" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1366.743@0.25.1366.743" timestamp="1580560447556" />
-    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1588801570015">
+    <state x="278" y="58" width="800" height="675" key="#Notifications/0.25.1366.743@0.25.1366.743" timestamp="1588801964462" />
+    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588951742288">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1588801570015" />
+    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1366.743@0.25.1366.743" timestamp="1588951742288" />
+    <state x="173" y="27" width="1010" height="741" key="CommitChangelistDialog2" timestamp="1591729410864">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1588801740604" />
+    <state x="173" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1591729410864" />
     <state x="213" y="28" key="CommitChangelistDialog2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236432945" />
-    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl" timestamp="1580561204832">
-      <screen x="0" y="25" width="1366" height="743" />
-    </state>
-    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1580561204832" />
     <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1585247386685">
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
@@ -271,15 +281,16 @@
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
     <state width="1638" height="262" key="GridCell.Tab.0.right/0.28.1680.1022@0.28.1680.1022" timestamp="1585247386685" />
-    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1588801580673">
+    <state x="179" y="33" key="SettingsEditor" timestamp="1591724985806">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="179" y="31" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1588801801588" />
+    <state x="179" y="33" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1591724985806" />
+    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1588801757602">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1588801580673" />
+    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1588801757602" />
     <state x="342" y="175" key="Vcs.Push.Dialog.v2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236444064" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="masterDetails">
     <states>

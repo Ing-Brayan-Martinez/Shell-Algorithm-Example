@@ -1,1 +1,2 @@
-sudo apt -y purge nodejs && sudo apt -y autoremove
+
+sudo snap remove node

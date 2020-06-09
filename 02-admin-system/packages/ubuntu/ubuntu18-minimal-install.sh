@@ -38,18 +38,11 @@ sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
 #para variety
 sudo add-apt-repository -y ppa:peterlevi/ppa &&
 
-#para docker
-sudo apt -y install apt-transport-https ca-certificates curl software-properties-common &&
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - &&
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" &&
-
 ## actualizar paqueteria.
 sudo apt update &&
 
 
-## instalar todo.
-
-apt install docker-ce &&
+## instalar los paquetes necesarios.
 
 sudo apt -y install rhythmbox &&
 
@@ -105,7 +98,7 @@ sudo apt -y install rar &&
 
 #sudo apt -y install openjdk-8-jdk openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless &&
 
-sudo apt -y install zulu-6 zulu-7 zulu-8 zulu-9 zulu-10 zulu-11 zulu-12 zulu-13 &&
+sudo apt -y install zulu-6 zulu-7 zulu-8 zulu-9 zulu-10 zulu-11 zulu-12 zulu-13 zulu-14 &&
 
 sudo apt -y install maven &&
 
