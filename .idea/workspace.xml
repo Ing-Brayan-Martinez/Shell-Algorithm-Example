@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/snapt-install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-admin-system/packages/ubuntu/snapt-install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04-tools-for-developer/flutter/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04-tools-for-developer/flutter/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556306880744" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Everest-Technology/Everest-SDK" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,7 +148,10 @@
       <workItem from="1592586712157" duration="640000" />
       <workItem from="1592587440605" duration="240000" />
       <workItem from="1592757194555" duration="50000" />
-      <workItem from="1592757323097" duration="226000" />
+      <workItem from="1592757323097" duration="641000" />
+      <workItem from="1592769841134" duration="627000" />
+      <workItem from="1592771092467" duration="249000" />
+      <workItem from="1593371959048" duration="1411000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591744076945</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cambios del 21 06 2020">
+      <created>1592757653571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592757653571</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +288,8 @@
     <MESSAGE value="Cambios del 26 03 2020 - dar soporte para el trabajo con docker" />
     <MESSAGE value="Cambios del 07 05 2020 - dar soporte para el trabajo con docker" />
     <MESSAGE value="Cambios del 09 06 2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 09 06 2020" />
+    <MESSAGE value="Cambios del 21 06 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios del 21 06 2020" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -291,12 +301,17 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1366.743@0.25.1366.743" timestamp="1588951742288" />
-    <state x="173" y="27" width="1006" height="738" key="CommitChangelistDialog2" timestamp="1591744075183">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="173" y="24" width="1006" height="738" key="CommitChangelistDialog2" timestamp="1592757652834">
+      <screen x="0" y="24" width="1366" height="744" />
     </state>
+    <state x="173" y="24" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1592757652834" />
     <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1588801740604" />
     <state x="173" y="27" width="1006" height="738" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1591744075183" />
     <state x="213" y="28" key="CommitChangelistDialog2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236432945" />
+    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl" timestamp="1593372234142">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1593372234142" />
     <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1585247386685">
       <screen x="0" y="28" width="1680" height="1022" />
     </state>
@@ -318,9 +333,10 @@
     </state>
     <state x="179" y="31" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1588801801588" />
     <state x="179" y="33" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1591724985806" />
-    <state x="278" y="134" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1591744086680">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="278" y="131" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1592757656495">
+      <screen x="0" y="24" width="1366" height="744" />
     </state>
+    <state x="278" y="131" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1592757656495" />
     <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1588801757602" />
     <state x="278" y="134" width="800" height="525" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1591744086680" />
     <state x="342" y="175" key="Vcs.Push.Dialog.v2/0.28.1680.1022@0.28.1680.1022" timestamp="1585236444064" />

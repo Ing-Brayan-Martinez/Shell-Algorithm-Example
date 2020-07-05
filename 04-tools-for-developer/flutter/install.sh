@@ -75,7 +75,11 @@ flutter doctor
 flutter doctor --android-licenses
 
 # soportar flutter web
- flutter config --enable-web
+flutter config --enable-web
+
+pub global activate devtools
+pub global activate webdev
+pub global activate stagehand
 
 
 # solucionar el problema de: kvm is requerided for android
