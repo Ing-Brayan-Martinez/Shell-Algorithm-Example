@@ -18,7 +18,7 @@
 sudo apt -y install openssh-server &&
 
 #verificar el servicio
-sudo systemctl status ssh &&
+sudo systemctl status ssh && whereis ssh
 
 #activar corta fuego
 sudo ufw allow ssh &&
