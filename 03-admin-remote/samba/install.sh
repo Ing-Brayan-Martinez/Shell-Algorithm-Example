@@ -4,7 +4,7 @@
 
 #https://comoinstalar.me/como-instalar-samba-en-ubuntu-18-04-lts/
 #https://www.solvetic.com/tutoriales/article/4018-instalar-samba-ubuntu-linux-compartir-windows-10/
-
+#https://ubunlog.com/como-instalar-y-configurar-samba-en/
 
 
 #instalar el servicio
