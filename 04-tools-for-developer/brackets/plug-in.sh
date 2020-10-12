@@ -14,6 +14,7 @@ Brackets Matcher
 Brackets Outline List
 Brackets Snippets (by edc)
 Brackets Markdown Preview
+Brackets Power Mode
 EditorConfig
 Emmet
 jQuinter
@@ -24,14 +25,12 @@ Smart JSDoc Comment
 TypeScript
 Open project in terminal
 Math Visualization
-Multi-Line Middle Click
 NodeJS integration
 
 #plug in no usados
 
 Special Html Characters
 Autoprefixer
-ESLint
 Brackets Thymeleaf Code Hint
 RCH Bootstrap 4 Snippets
 Vue Snippets
