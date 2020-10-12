@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da102841-af76-456f-b5a0-341c9377edf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04-tools-for-developer/typescript/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="Shell-Script-Demo" />
+    <favorites_list name="Shell-Algorithm-Example" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -49,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -93,6 +95,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -156,6 +159,10 @@
       <workItem from="1594496296124" duration="884000" />
       <workItem from="1596320618661" duration="1344000" />
       <workItem from="1596326568849" duration="932000" />
+      <workItem from="1596660198015" duration="577000" />
+      <workItem from="1599935597699" duration="15000" />
+      <workItem from="1601153329625" duration="80000" />
+      <workItem from="1601153441494" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios del proyecto mysql 16 04 2019">
       <created>1555433575419</created>
@@ -267,6 +274,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../Intelix/Evaluacion-Desempeno/evaluacion-desempeno-backend/src/index.js" />
+        <option value="$PROJECT_DIR$/../../Intelix/Evaluacion-Desempeno/evaluacion-desempeno-backend/src/index.js" />
+      </list>
+    </option>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
@@ -300,14 +313,6 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="58" width="800" height="675" key="#Notifications" timestamp="1588801964462">
-      <screen x="0" y="25" width="1366" height="743" />
-    </state>
-    <state x="278" y="58" width="800" height="675" key="#Notifications/0.25.1366.743@0.25.1366.743" timestamp="1588801964462" />
-    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588951742288">
-      <screen x="0" y="25" width="1366" height="743" />
-    </state>
-    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1366.743@0.25.1366.743" timestamp="1588951742288" />
     <state x="306" y="203" width="744" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596320634648">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
@@ -316,11 +321,11 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="173" y="24" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1592757652834" />
-    <state x="173" y="25" width="1010" height="741" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1588801740604" />
     <state x="173" y="27" width="1006" height="738" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1591744075183" />
-    <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl" timestamp="1594309056814">
-      <screen x="0" y="25" width="1366" height="743" />
+    <state x="466" y="153" width="424" height="482" key="FileChooserDialogImpl" timestamp="1599935611076">
+      <screen x="0" y="24" width="1366" height="744" />
     </state>
+    <state x="466" y="153" key="FileChooserDialogImpl/0.24.1366.744@0.24.1366.744" timestamp="1599935611076" />
     <state x="466" y="154" width="424" height="482" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1594309056814" />
     <state x="179" y="31" key="SettingsEditor" timestamp="1596323105810">
       <screen x="0" y="25" width="1366" height="743" />
@@ -331,7 +336,6 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="278" y="131" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1592757656495" />
-    <state x="278" y="132" width="800" height="526" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1588801757602" />
     <state x="278" y="134" width="800" height="525" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1591744086680" />
     <state x="362" y="219" key="com.intellij.ide.util.TipDialog" timestamp="1591735048019">
       <screen x="0" y="21" width="1366" height="747" />
