@@ -14,26 +14,57 @@
 ##          Bugs:  --
 ##=================================================================================
 
-#referencia
-#https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-#instalar docker.
-sudo snap install docker
 
-#verificar todos los servicios
-sudo service --status-all
+#referencia: https://docs.docker.com/engine/install/ubuntu/
+
+
+#Para instalar los repositorios
+
+
+#Update the apt package index and install packages to allow apt to use a repository over HTTPS:
+
+ sudo apt-get update
+
+ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
+
+#Add Docker’s official GPG key:
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+#Use the following command to set up the stable repository. To add the nightly or test repository,
+# add the word nightly or test (or both) after the word stable in the commands below
+
+ echo \
+  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+
+#Para instalar docker
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+
+#Para probar docker
+
+sudo docker run hello-world
+
+
+#Para configurar docker para que arranque con el sistema operativo
+
+
 
 #desplegar el demonio de docker
-sudo systemctl enable snap.docker.dockerd
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
 
 #verificar el demonio de docker
-sudo systemctl status snap.docker.dockerd
-
-#provar docker
-sudo docker run hello-world &&
-
-
-#agregar mi usuario al grupo docker
-sudo usermod -aG docker brayan
-
-
+sudo systemctl status docker.service
+sudo systemctl status containerd.service
