@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#lang
+# language
 sudo snap install go --classic
 
 sudo snap install ruby --classic
@@ -12,6 +12,8 @@ sudo snap install dotnet-sdk --classic
 sudo snap install groovy --classic
 
 sudo snap install node --channel=12/stable --classic
+
+sudo snap install flutter --classic
 
 # jetbrains
 sudo snap install goland --classic
@@ -34,7 +36,9 @@ sudo snap install phpstorm --classic
 
 sudo snap install android-studio --classic
 
-# others
+sudo snap install space
+
+# programing
 sudo snap install eclipse --classic
 
 sudo snap install netbeans --classic
@@ -43,7 +47,7 @@ sudo snap install brackets --classic
 
 sudo snap install code --classic
 
-sudo snap install gitkraken
+sudo snap install gitkraken --classic
 
 sudo snap install dbeaver-ce
 
@@ -64,7 +68,7 @@ sudo snap install couchdb
 
 sudo snap install docker
 
-# social
+# others
 sudo snap install vlc --edge
 
 sudo snap install opera
@@ -76,3 +80,11 @@ sudo snap install skype --classic
 sudo snap install telegram-desktop
 
 sudo snap install snap-store
+
+sudo snap install brave
+
+sudo snap install nordpass
+
+sudo snap install trello-desktop
+
+sudo snap install drawio
