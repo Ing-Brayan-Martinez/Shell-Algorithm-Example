@@ -17,26 +17,14 @@
 
 ## repositorios.
 
-#para cinnamon
-sudo add-apt-repository -y ppa:embrosyn/cinnamon &&
-
 #para pulseaudio-equalizer
 sudo add-apt-repository -y ppa:nilarimogard/webupd8 &&
 
 #para qbittorrent
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable &&
 
-#para java
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9 &&
-sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
-
 #para variety
 sudo add-apt-repository -y ppa:peterlevi/ppa &&
-
-#para docker
-sudo apt -y install apt-transport-https ca-certificates curl software-properties-common &&
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - &&
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" &&
 
 
 
@@ -71,7 +59,6 @@ sudo apt -y purge --auto-remove libreoffice &&
 
 
 ## instalar los paquetes necesarios.
-
 sudo apt -y install ubuntu-restricted-extras &&
 
 sudo apt -y install pulseaudio-equalizer &&
@@ -98,8 +85,6 @@ sudo apt -y install rar &&
 
 sudo apt -y install curl &&
 
-sudo apt -y install gtkorphan &&
-
 sudo apt -y install synaptic &&
 
 sudo apt -y install gparted &&
@@ -110,15 +95,38 @@ sudo apt -y install gnome-nettool &&
 
 sudo apt -y install git &&
 
-sudo apt -y install zulu-17 &&
-
 sudo apt -y install maven &&
-
-sudo apt -y install docker-ce &&
 
 sudo apt -y install cinnamon &&
 
 
-sudo apt list --upgradable
+#operaciones adicionales
+sudo apt -y autoremove &&
 
-#sudo apt -y upgrade
+sudo apt list --upgradable &&
+
+
+#package snap
+sudo snap install space &&
+
+sudo snap install brackets --classic &&
+
+sudo snap install code --classic &&
+
+sudo snap install gitkraken --classic &&
+
+sudo snap install postman &&
+
+sudo snap install opera &&
+
+sudo snap install brave &&
+
+sudo snap install nordpass &&
+
+sudo snap install trello-desktop &&
+
+sudo snap install drawio &&
+
+sudo snap install telegram-desktop &&
+
+sudo snap install tradingview

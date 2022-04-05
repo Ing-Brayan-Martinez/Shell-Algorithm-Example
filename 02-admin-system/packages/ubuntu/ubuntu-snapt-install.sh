@@ -88,3 +88,5 @@ sudo snap install nordpass
 sudo snap install trello-desktop
 
 sudo snap install drawio
+
+sudo snap install tradingview
