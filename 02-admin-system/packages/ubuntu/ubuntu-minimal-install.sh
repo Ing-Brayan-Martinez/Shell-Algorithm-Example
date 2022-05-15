@@ -18,13 +18,13 @@
 ## repositorios.
 
 #para pulseaudio-equalizer
-sudo add-apt-repository -y ppa:nilarimogard/webupd8 &&
+#sudo add-apt-repository -y ppa:nilarimogard/webupd8 &&
 
 #para qbittorrent
-sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable &&
+#sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable &&
 
 #para variety
-sudo add-apt-repository -y ppa:peterlevi/ppa &&
+#sudo add-apt-repository -y ppa:peterlevi/ppa &&
 
 
 ## actualizar paqueteria.
@@ -44,7 +44,7 @@ sudo apt -y install cheese* &&
 
 sudo apt -y install variety &&
 
-sudo apt -y install qbittorrent &&
+#sudo apt -y install qbittorrent &&
 
 sudo apt -y install --only-upgrade firefox &&
 
@@ -58,6 +58,8 @@ sudo apt -y install rar &&
 
 sudo apt -y install curl &&
 
+sudo apt -y install neofetch &&
+
 sudo apt -y install synaptic &&
 
 sudo apt -y install gparted &&
@@ -66,11 +68,11 @@ sudo apt -y install bleachbit &&
 
 sudo apt -y install gnome-nettool &&
 
+sudo apt -y install gnome-contacts &&
+
+sudo apt -y install evolution &&
+
 sudo apt -y install git &&
-
-sudo apt -y install maven &&
-
-sudo apt -y install cinnamon &&
 
 
 #operaciones adicionales

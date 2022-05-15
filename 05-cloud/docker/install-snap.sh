@@ -35,6 +35,10 @@ sudo systemctl enable snap.docker.dockerd
 #verificar el demonio de docker
 sudo systemctl status snap.docker.dockerd
 
+#para evitar problemas de permisos
+sudo addgroup --system docker
+sudo adduser $USER docker
+sudo usermod -aG docker $USER
 
-
-
+#esto nose para que es?
+sudo snap enable docker
