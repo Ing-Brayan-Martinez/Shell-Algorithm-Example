@@ -40,5 +40,7 @@ sudo addgroup --system docker
 sudo adduser $USER docker
 sudo usermod -aG docker $USER
 
-#esto nose para que es?
-sudo snap enable docker
+#para evitar problemas de acceso al filesystem
+sudo snap connect docker:removable-media
+
+#https://stackoverflow.com/questions/59662154/docker-building-issue-error-checking-context-cant-stat
