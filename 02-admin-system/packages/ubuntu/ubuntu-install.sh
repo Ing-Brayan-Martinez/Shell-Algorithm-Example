@@ -53,6 +53,8 @@ sudo apt -y purge --auto-remove transmission* &&
 
 sudo apt -y purge --auto-remove shotwell* &&
 
+sudo apt -y purge --auto-remove thunderbird* &&
+
 
 
 ## instalar los paquetes necesarios.
@@ -68,7 +70,7 @@ sudo apt -y install cheese* &&
 
 sudo apt -y install variety &&
 
-#sudo apt -y install qbittorrent &&
+sudo apt -y install qbittorrent &&
 
 sudo apt -y install --only-upgrade firefox &&
 
