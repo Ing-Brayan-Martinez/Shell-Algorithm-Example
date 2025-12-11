@@ -16,18 +16,20 @@
 
 #instala todas la plataforma java para todas las aplicacions y dasarrrollo.
 
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9 &&
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9;
 sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
 
-sudo apt update &&
+sudo apt update;
 
-sudo apt -y install openjdk-8-jdk openjdk-8-jre &&
+sudo apt -y install openjdk-8-jdk openjdk-8-jre;
 
-sudo apt -y install zulu-9 &&
+sudo apt -y install openjdk-17-jdk openjdk-17-jre;
 
-sudo apt -y install zulu-10 &&
+sudo apt -y install zulu-9;
 
-sudo apt -y install maven &&
+sudo apt -y install zulu-10;
+
+sudo apt -y install maven;
 
 sudo apt -y autoremove
 
