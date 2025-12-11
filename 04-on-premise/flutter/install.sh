@@ -5,7 +5,7 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  dart/install.sh
+##          File:  dart/ubuntu-old-install.sh
 ##   Description:  Este script instalará y configurará la maquina virtual
 ##                 del lenguaje dart y el SDK de flutter en Ubuntu 16.04 LTS
 #                  o superior.

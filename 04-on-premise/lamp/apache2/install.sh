@@ -5,11 +5,11 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  apache2/install.sh 
+##          File:  apache2/ubuntu-old-install.sh
 ##   Description:  Este script instalará y configurará un servidor apache
 ##                 en Ubuntu 16.04 LTS o superior.
 ##   Requirement:  --
-##          Note:  -- 
+##          Note:  --
 ##          Bugs:  --
 ##=================================================================================
 
@@ -33,4 +33,4 @@ sudo apache2ctl configtest &&
 sudo chmod -R 777 /var/www/html &&
 
 #provar apache2
-firefox http://localhost 
+firefox http://localhost

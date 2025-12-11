@@ -6,11 +6,11 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  gitlab/install.sh 
+##          File:  gitlab/ubuntu-old-install.sh
 ##   Description:  Este script instalará y configurará un servidor gitlab
 ##                 en Ubuntu 16.04 LTS o superior.
 ##   Requirement:  --
-##          Note:  -- 
+##          Note:  --
 ##          Bugs:  --
 ##=================================================================================
 
@@ -26,4 +26,4 @@ sudo EXTERNAL_URL="http://gitlab.example.com" apt -y install gitlab-ee &&
 sudo gitlab-ctl reconfigure
 
 
-   
+

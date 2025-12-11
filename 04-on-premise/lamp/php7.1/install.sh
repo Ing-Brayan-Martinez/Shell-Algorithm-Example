@@ -5,11 +5,11 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  php/php7.1/install.sh 
-##   Description:  Este script instalará y configurará la maquina virtual 
+##          File:  php/php7.1/ubuntu-old-install.sh
+##   Description:  Este script instalará y configurará la maquina virtual
 ##                 de php en Ubuntu 16.04 LTS o superior.
 ##   Requirement:  --
-##          Note:  -- 
+##          Note:  --
 ##          Bugs:  --
 ##=================================================================================
 
@@ -30,5 +30,5 @@ sudo apt -y install php7.1 php7.1-dev php7.1-cli php7.1-fpm php7.1-cgi \
 
 
 
- 
+
 

@@ -6,11 +6,11 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  lamp/install.sh 
+##          File:  lamp/ubuntu-old-install.sh
 ##   Description:  Este script instalará y configurará LAMP
 ##                 en Ubuntu 16.04 LTS o superior.
 ##   Requirement:  --
-##          Note:  -- 
+##          Note:  --
 ##          Bugs:  --
 ##=================================================================================
 

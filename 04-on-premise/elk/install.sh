@@ -6,11 +6,11 @@
 ##       Created:  07.05.2018 20:10:01
 ##       Version:  1.0.0
 ##    Repository:  https://github.com/Ing-Brayan-Martinez/Shell-Script-Demo.git
-##          File:  elk/install.sh 
+##          File:  elk/ubuntu-old-install.sh
 ##   Description:  Este script instalará y configurará el stack elk compuesto por
 ##                 elasticsearch, logstash y kibana.
 ##   Requirement:  --
-##          Note:  -- 
+##          Note:  --
 ##          Bugs:  --
 ##=================================================================================
 
@@ -24,7 +24,7 @@ sudo systemctl enable elasticsearch.service
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 sudo apt-get install apt-transport-https
 echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
-sudo apt-get update && 
+sudo apt-get update &&
 sudo apt-get install elasticsearch
 sudo systemctl enable elasticsearch.service
 
