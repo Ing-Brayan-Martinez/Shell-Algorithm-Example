@@ -51,20 +51,19 @@ export M2_HOME="/usr/share/maven"
 export PATH=$PATH:$M2_HOME:"/bin"
 
 
+#Flutter
+export FLUTTER_HOME="/home/brayan/snap/flutter/common/flutter"
+export PATH=$PATH:$FLUTTER_HOME"/bin"
 
 #Dart
-export DART_HOME="/opt/flutter/bin/cache/dart-sdk/bin"
+export DART_HOME=$FLUTTER_HOME"/bin/cache/dart-sdk/bin"
 export PATH=$PATH:$DART_HOME
-
-#Flutter
-export FLUTTER_HOME="/opt/flutter"
-export PATH=$PATH:$FLUTTER_HOME"/bin"
 
 #pub
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 #Android
-export ANDROID_HOME="/media/brayan/HDD-1TB/Android/Sdk"
+export ANDROID_HOME="/home/brayan/Android/Sdk"
 export PATH=$PATH:$ANDROID_HOME"/tools":$ANDROID_HOME"/platform-tools"
 
 
