@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-09-01T23:45:06.440359367+00:00",
+      "input_summary": "",
+      "output_summary": "Light model required by subagent 'buddy_setup_coach' (model_type: light) is not set up. Go to Default model settings and configure Light model.",
+      "success": false,
+      "failure_category": "unknown",
+      "failure_summary": "Workflow failed. Light model required by subagent 'buddy_setup_coach' (model_type: light) is not set up. Go to Default model settings and configure Light model."
+    }
+  ]
+}

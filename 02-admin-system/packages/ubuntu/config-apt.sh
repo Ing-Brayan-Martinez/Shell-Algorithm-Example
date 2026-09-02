@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#liverar proceso de instalacion de paquetes
+#liberar proceso de instalacion de paquetes
 sudo fuser -vki  /var/lib/dpkg/lock
 
 #ver lista de paquetes actulizables
