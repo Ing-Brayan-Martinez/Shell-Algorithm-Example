@@ -29,3 +29,8 @@ sed -i '$a Aqui el texto que ira en la ultima linea' archivo.txt
 
 # esto sirve para invocar programas como super usuario desde el modo grafico
 gksudo gedit
+
+#Comprobar si hay una nueva versión de Ubuntu
+#No hay una versión de desarrollo de una LTS disponible.
+#Para actualizar al último lanzamiento de desarrollo sin LTS
+#defina «Prompt=normal» en /etc/update-manager/release-upgrades.
